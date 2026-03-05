@@ -1,0 +1,8 @@
+{
+  "name": "Plan2Code",
+  "description": "Claude plans the implementation, Codex writes the code via MCP, Claude reviews the result.",
+  "version": "1.0.0",
+  "author": {
+    "name": "cheeson"
+  }
+}
