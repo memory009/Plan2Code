@@ -58,11 +58,7 @@ claude plugin install plan2code@cheeson-plugins
 In Claude Code (CLI or VSCode plugin):
 
 ```
-/plan2code:plan2code create a REST API for user authentication in src/auth.ts
-```
-
-```
-/plan2code:plan2code 在 ~/Documents/pomodoro 目录创建一个番茄钟应用，Python实现
+/plan2code:plan2code Create a Pomodoro timer app in ~/Documents/pomodoro using Python
 ```
 
 ### When to use
