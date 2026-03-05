@@ -1,7 +1,7 @@
 ---
-description: Claude plans, Codex codes via MCP, Claude reviews. Use for coding tasks where the plan is clear.
-argument-hint: <task description>
-allowed-tools: [Read, Glob, Grep, Bash, mcp__codex__codex, mcp__codex__codex-reply]
+name: plan2code
+description: This skill should be used when the user says "plan2code", "p2c", "/plan2code", "用codex写", or asks Claude to plan and delegate coding to Codex. Claude plans the implementation, Codex writes code via MCP, Claude reviews the result.
+disable-model-invocation: true
 ---
 
 # Plan2Code
