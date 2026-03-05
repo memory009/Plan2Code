@@ -104,7 +104,3 @@ plugins/
         SKILL.md          # Skill definition and workflow
     README.md
 ```
-
-## License
-
-MIT
