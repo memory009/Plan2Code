@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-local",
+  "name": "cheeson-plugins",
   "description": "Local custom plugins",
   "owner": {
     "name": "cheeson"
