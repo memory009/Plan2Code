@@ -45,10 +45,25 @@ Call the `codex` MCP tool with these parameters:
 ### Step 3: Review
 
 After Codex returns:
+
+**3a. Verify actual changes:**
+- If inside a git repo: run `git diff` and `git status` to see exactly what files were added or modified
+- If NOT in a git repo: run `find <project-dir> -newer /tmp -type f` or `ls -ltR` to identify new/changed files
+- Cross-check: compare Codex's reported changes against actual changes on disk. Flag any unexpected modifications.
+
+**3b. Read and review code:**
+- Read the key files that were created or modified
 - Verify the code matches the plan
 - Check for errors, missing edge cases, or security issues
-- If issues found, use `codex-reply` to request corrections (include the threadId)
-- Report a brief summary to the user
+
+**3c. Report to user:**
+- List files created/modified
+- Brief summary of what was implemented
+- Any issues found
+
+**3d. If issues found:**
+- Use `codex-reply` to request corrections (include the threadId)
+- After correction, re-run 3a to verify
 
 ## Rules
 
