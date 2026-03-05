@@ -39,11 +39,7 @@ claude plugin install plan2code@cheeson-plugins
 In Claude Code (CLI or VSCode plugin):
 
 ```
-/plan2code:plan2code create a REST API for user authentication in src/auth.ts
-```
-
-```
-/plan2code:plan2code 在 ~/Documents/myapp 目录创建一个番茄钟应用，Python实现
+/plan2code:plan2code 在 ~/Documents/myapp Table of Contents: Creating a Pomodoro Technique Application (Python Implementation)
 ```
 
 ### When to use
@@ -65,7 +61,7 @@ In Claude Code (CLI or VSCode plugin):
 |------|-----|-------------|
 | Planning | Claude | Anthropic |
 | Code generation | Codex | **OpenAI** |
-| Review | Claude | Anthropic (small) |
+| Review | Claude | Anthropic |
 
 The code generation step — typically the largest token consumer — is offloaded to Codex (OpenAI tokens), while Claude only handles the lightweight planning and review steps.
 
@@ -84,6 +80,3 @@ plugins/
     README.md
 ```
 
-## License
-
-MIT
